@@ -1,0 +1,25 @@
+model : la logique métier
+* les recettes sont des fichiers qui contient des instructions 
+
+config: c'est le cœur de Symfony contient fichier de configuration 
+src: for coding 
+* composer.json : contient une desription de dépendeces à installer 
+pourquoi : for updating packagist 
+* composer.lock : dependances mais de version plus détaillés
+
+est ce que les deux fichiers sont versionables : oui 
+
+composer update : deux types : 
+*	it's for update all packages 
+* 	Or just one package 
+
+composer require : update at once with precision 
+
+debug : already exist 
+
+un composant : je peux l'utiliser dans les applications hors symfony : il peut s'installer sur n'importe quelle framework php 
+Bundles : ils sont compatibles à symfony 
+
+#[Route.... : un attribut : ce sont des classes qui contient 
+
+durant la compilation twig se transfome en php "caché" après sera intérpréter par Serveur Web 
